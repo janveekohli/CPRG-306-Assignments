@@ -1,20 +1,11 @@
-import React from 'react';
-import Link from 'next/link';
+import Link from "next/link";
 
-const StudentInfo = () => {
-    return (
-        <div style={{ padding: '20px', textAlign: 'center' }}>
-            <h1>Janvee Kohli</h1>
-            <p>
-                Check out my GitHub repository: 
-                <Link href="https://github.com/janveekohli/cprg-306-assignments" passHref>
-                    <span style={{ color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}>
-                        janveekohli
-                    </span>
-                </Link>
-            </p>
-        </div>
+export default function StudentInfo(){
+    return(
+        <main className="bg-slate">
+            <h1 className="py-3 text-white-1500 pl-2"> janveeKohli</h1>
+            <Link href="https://github.com/janveekohli/" className="text-gold-1500 pl-2">Github account</Link>
+        </main>
     );
-};
+}
 
-export default StudentInfo;
