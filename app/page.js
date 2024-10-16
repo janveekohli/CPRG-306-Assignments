@@ -7,6 +7,7 @@ export default function page(){
         <li><Link href="./week-2" className="text-white-700 pl-2">Week-2 assignments</Link></li>
         <li><Link href="./week-3" className="text-white-700 pl-2">Week-3 assignments</Link></li>
         <li><Link href="./week-4" className="text-white-700 pl-2">Week-4 assignments</Link></li>
+        <li><Link href="./week-5" className="text-white-700 pl-2">Week-5 assignments</Link></li>
         
       </ul>
     </main>
