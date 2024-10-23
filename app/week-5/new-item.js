@@ -31,7 +31,7 @@ export default function NewItem2(){
 
     return(
      <div className= "flex justify-center ">
-       <form className=" m-3 p-3 w-290 bg-slate-900">
+       <form className=" m-3 p-3 w-290 bg-white-900">
 
             {/* Input Field for name */}
             <input 
