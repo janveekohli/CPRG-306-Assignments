@@ -10,8 +10,6 @@ import NewItem3 from "@/app/week-8/new-item";
 import ItemList from "../../week-8/item-list";
 
 
-import itemsData from "./items.json";
-
 
 import MealIdea from "@/app/week-8/meal-ideas";
 //import MealIdea from "./meal-ideas";
